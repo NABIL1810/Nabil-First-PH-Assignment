@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    padding-top: 150px;
+    padding-left: 25px;
+    display: inline-block;
+}
+
+
+h1{
+   font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+    color: dimgray;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.side-image{
+    width: 80%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+
+p{
+    color: dimgray;
+}
+
+.button{
+    color: white;
+    background-color:#a432a8 ;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.top-banner{
+    background-image: url(personal-website/header-bg.png);
+}
+.biography-area{
+    background-image: url(personal-website/biography-bg.png);
+}
+.education{
+    padding: 30px;
+    margin: 30px;
+    background-color: rgb(238, 251, 255);
+    border-radius: 20px;
+}
+
+.education-item{
+    padding: 10px;
+    border-left: 1px solid rgba(137, 130, 247, .2);
+}
+
+.work-area{
+    background-image: url(personal-website/latest-work-bg.png);
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column{
+    width: 25%;
+    float: left;
+    padding: 4% 4%;
+}
+
+.center-button {
+    
+    background-color:#a432a8 ;
+    margin: auto;
+    width: 40%;
+    border-radius: 10px;   
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.footer-area{
+    background-image: url(personal-website/footer-bg.png);
+}
